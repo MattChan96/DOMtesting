@@ -47,6 +47,7 @@ ol.addEventListener("mouseleave", () => {
 
 const buttonUpdate = document.querySelector("#updateButton");
 
+
 buttonUpdate.addEventListener("click", () => {
 	document.querySelector("h1").textContent = "you hit me";
 });
@@ -54,10 +55,9 @@ buttonUpdate.addEventListener("click", () => {
 // h2
 
 const h2 = document.querySelectorAll("h2");
-
 h2.forEach((title) =>
 	title.addEventListener("mouseover", () => {
-		title.textContent = "greetings";
+		title.textContent = "Hello There!";
 	})
 );
 
@@ -70,6 +70,43 @@ h1.addEventListener('mouseover', () => {
 })
 h1.addEventListener('mouseout', () => {
     h1.style.backgroundColor = "white"
+})
+
+const nav1 = document.querySelector("#nav1");
+const nav2 = document.querySelector("#nav2");
+const nav3 = document.querySelector("#nav3");
+
+nav1.addEventListener("click", () => {
+    const para1 = document.querySelector("#para1");
+    if (para1.style.fontSize === "30px") {
+        para1.style.fontWeight = "400";
+    para1.style.fontSize = "16px"
+    } else {
+        para1.style.fontWeight = "800";
+    para1.style.fontSize = "30px"
+    }
+})
+
+nav2.addEventListener("click", () => {
+    const para2 = document.querySelector("#para2");
+    if (para2.style.fontSize === "30px") {
+        para2.style.fontWeight = "400";
+    para2.style.fontSize = "16px"
+    } else {
+        para2.style.fontWeight = "800";
+    para2.style.fontSize = "30px"
+    }
+})
+
+nav3.addEventListener("click", () => {
+    const para3 = document.querySelector("#para3");
+    if (para3.style.fontSize === "30px") {
+        para3.style.fontWeight = "400";
+    para3.style.fontSize = "16px"
+    } else {
+        para3.style.fontWeight = "800";
+    para3.style.fontSize = "30px"
+    }
 })
 
 },{"./hello":1}]},{},[2]);
