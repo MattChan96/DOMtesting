@@ -47,7 +47,6 @@ ol.addEventListener("mouseleave", () => {
 
 const buttonUpdate = document.querySelector("#updateButton");
 
-
 buttonUpdate.addEventListener("click", () => {
 	document.querySelector("h1").textContent = "you hit me";
 });
@@ -108,5 +107,6 @@ nav3.addEventListener("click", () => {
     para3.style.fontSize = "30px"
     }
 })
+
 
 },{"./hello":1}]},{},[2]);
