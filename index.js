@@ -39,7 +39,6 @@ ol.addEventListener("mouseleave", () => {
 
 const buttonUpdate = document.querySelector("#updateButton");
 
-
 buttonUpdate.addEventListener("click", () => {
 	document.querySelector("h1").textContent = "you hit me";
 });
@@ -56,10 +55,10 @@ h2.forEach((title) =>
 // Exercise 2
 
 const h1 = document.querySelector("h1");
-h1.addEventListener('mouseover', () => {
-    h1.style.backgroundColor = "red"
-    console.log('say hi')
-})
-h1.addEventListener('mouseout', () => {
-    h1.style.backgroundColor = "white"
-})
+h1.addEventListener("mouseover", () => {
+	h1.style.backgroundColor = "red";
+	console.log("say hi");
+});
+h1.addEventListener("mouseout", () => {
+	h1.style.backgroundColor = "white";
+});
