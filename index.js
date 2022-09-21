@@ -51,9 +51,6 @@ h2.forEach((title) =>
 		title.textContent = "Hello There!";
 	})
 );
-buttonUpdate.addEventListener("click", () => {
-	document.querySelector("h1").textContent = "you hit me";
-});
 
 // Exercise 2
 

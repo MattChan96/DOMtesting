@@ -57,13 +57,8 @@
 				const heading = document.querySelector("h1");
 				console.log(heading);
 
-				heading.textContent = "The LOR - by Gustafsson";
-				heading.style.color = "purple";
-
 				const para = document.querySelectorAll("p");
 				para.forEach((para) => (para.style.color = "green"));
-
-				document.querySelector("#num1").textContent = "Gimli";
 
 				document.getElementById("num3").style.color = "yellow";
 
